@@ -1,0 +1,3434 @@
+[
+  {
+    "id": "ping-1779896205369-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "22:36:45",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779896231417-F7-R-2",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "22:37:11",
+    "device": "F7-R-2",
+    "message": "Minor - High latency detected (>100ms) (1063ms)"
+  },
+  {
+    "id": "ping-1779896262692-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "22:37:42",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (172ms)"
+  },
+  {
+    "id": "ping-1779896262692-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:37:42",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779896295772-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:38:15",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (85ms)"
+  },
+  {
+    "id": "ping-1779896295772-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "22:38:15",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779896350412-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:39:10",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (19ms)"
+  },
+  {
+    "id": "ping-1779896477253-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "22:41:17",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779896502513-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:41:42",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779896590565-F4-HR-2",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "22:43:10",
+    "device": "F4-HR-2",
+    "message": "Minor - High latency detected (>100ms) (135ms)"
+  },
+  {
+    "id": "ping-1779896620404-F4-HR-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:43:40",
+    "device": "F4-HR-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779896758765-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "22:45:58",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779896787626-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:46:27",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (53ms)"
+  },
+  {
+    "id": "ping-1779896996587-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "22:49:56",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (102ms)"
+  },
+  {
+    "id": "ping-1779897026395-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "22:50:26",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779897764367-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:02:44",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (8ms)"
+  },
+  {
+    "id": "ping-1779897775688-F8-L-DIM",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:02:55",
+    "device": "F8-L-DIM",
+    "message": "Minor - High latency detected (>100ms) (160ms)"
+  },
+  {
+    "id": "ping-1779897776059-F8-L-DIM",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:02:56",
+    "device": "F8-L-DIM",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779897807139-F7-R-2",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:03:27",
+    "device": "F7-R-2",
+    "message": "Minor - High latency detected (>100ms) (1053ms)"
+  },
+  {
+    "id": "ping-1779897836205-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:03:56",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779898041280-F9-L-2",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:07:21",
+    "device": "F9-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779898066785-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:07:46",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779898070264-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:07:50",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779898124665-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:08:44",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779898251295-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:10:51",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779898304745-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:11:44",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779898511416-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:15:11",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (103ms)"
+  },
+  {
+    "id": "ping-1779898541270-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:15:41",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779898932456-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:22:12",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (112ms)"
+  },
+  {
+    "id": "ping-1779898932456-F7L-3",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:22:12",
+    "device": "F7L-3",
+    "message": "Minor - High latency detected (>100ms) (1019ms)"
+  },
+  {
+    "id": "ping-1779898964608-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:22:44",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (8ms)"
+  },
+  {
+    "id": "ping-1779898964608-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:22:44",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (15ms)"
+  },
+  {
+    "id": "ping-1779899562539-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:32:42",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (1011ms)"
+  },
+  {
+    "id": "ping-1779899591527-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:33:11",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779899651746-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:34:11",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (147ms)"
+  },
+  {
+    "id": "ping-1779899681602-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:34:41",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779899924811-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:38:44",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779899951658-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:39:11",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779900525822-F8-L-1",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:48:45",
+    "device": "F8-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779900551895-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:49:11",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (7ms)"
+  },
+  {
+    "id": "ping-1779900645289-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:50:45",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779900671826-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:51:11",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779901092950-F8-L-1",
+    "severity": "Minor",
+    "date": "2026-05-27",
+    "time": "23:58:12",
+    "device": "F8-L-1",
+    "message": "Minor - High latency detected (>100ms) (1020ms)"
+  },
+  {
+    "id": "ping-1779901121959-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-27",
+    "time": "23:58:41",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (7ms)"
+  },
+  {
+    "id": "ping-1779901184959-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-27",
+    "time": "23:59:44",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779901211975-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:00:11",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779901365028-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "00:02:45",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779901392020-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:03:12",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779901635124-F7-R-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:07:15",
+    "device": "F7-R-1",
+    "message": "Minor - High latency detected (>100ms) (226ms)"
+  },
+  {
+    "id": "ping-1779901665168-F7-L-4",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "00:07:45",
+    "device": "F7-L-4",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779901665168-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:07:45",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779901692115-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:08:12",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779901842372-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:10:42",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (105ms)"
+  },
+  {
+    "id": "ping-1779901872176-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:11:12",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779901964989-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:12:44",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (101ms)"
+  },
+  {
+    "id": "ping-1779901964989-F8-R-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:12:44",
+    "device": "F8-R-2",
+    "message": "Minor - High latency detected (>100ms) (142ms)"
+  },
+  {
+    "id": "ping-1779901992197-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:13:12",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779901992197-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:13:12",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779902565516-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:22:45",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (116ms)"
+  },
+  {
+    "id": "ping-1779902565516-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "00:22:45",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779902592538-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:23:12",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (34ms)"
+  },
+  {
+    "id": "ping-1779902592538-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:23:12",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (5ms)"
+  },
+  {
+    "id": "ping-1779902712606-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:25:12",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (105ms)"
+  },
+  {
+    "id": "ping-1779902742363-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:25:42",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779903253762-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:34:13",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (1034ms)"
+  },
+  {
+    "id": "ping-1779903282579-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:34:42",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779903376360-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "00:36:16",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779903405179-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:36:45",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (114ms)"
+  },
+  {
+    "id": "ping-1779903405179-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:36:45",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779903432523-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:37:12",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779903462624-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:37:42",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (101ms)"
+  },
+  {
+    "id": "ping-1779903492542-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:38:12",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779903676617-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "00:41:16",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779903702632-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:41:42",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779904036171-F8-L-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:47:16",
+    "device": "F8-L-1",
+    "message": "Minor - High latency detected (>100ms) (1034ms)"
+  },
+  {
+    "id": "ping-1779904067704-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "00:47:47",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (130ms)"
+  },
+  {
+    "id": "ping-1779904067704-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:47:47",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779904092658-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:48:12",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779904155948-F6-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "00:49:15",
+    "device": "F6-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779904182664-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "00:49:42",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779904850662-F10-R-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "01:00:50",
+    "device": "F10-R-1",
+    "message": "Minor - High latency detected (>100ms) (343ms)"
+  },
+  {
+    "id": "ping-1779904872868-F10-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:01:12",
+    "device": "F10-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779904967261-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:02:47",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779904993152-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:03:13",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (8ms)"
+  },
+  {
+    "id": "ping-1779905748860-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:15:48",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779905773135-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:16:13",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (24ms)"
+  },
+  {
+    "id": "ping-1779906043440-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "01:20:43",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (123ms)"
+  },
+  {
+    "id": "ping-1779906073386-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:21:13",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779906103423-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "01:21:43",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (138ms)"
+  },
+  {
+    "id": "ping-1779906139247-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:22:19",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779906169648-F8-L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:22:49",
+    "device": "F8-L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779906169648-F10-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:22:49",
+    "device": "F10-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779906193225-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:23:13",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779906193225-F10-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:23:13",
+    "device": "F10-R-1",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779907156579-F7-L-4",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:39:16",
+    "device": "F7-L-4",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779907183474-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:39:43",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779907306537-F6-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:41:46",
+    "device": "F6-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779907333512-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:42:13",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (8ms)"
+  },
+  {
+    "id": "ping-1779907607800-F8-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:46:47",
+    "device": "F8-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779907633591-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:47:13",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779907729354-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "01:48:49",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (108ms)"
+  },
+  {
+    "id": "ping-1779907729354-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:48:49",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779907753757-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:49:13",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779907753757-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:49:13",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (20ms)"
+  },
+  {
+    "id": "ping-1779908296755-F9-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "01:58:16",
+    "device": "F9-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779908323765-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "01:58:43",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779908536858-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:02:16",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779908563838-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:02:43",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779908626813-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:03:46",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779908653871-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:04:13",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779909050485-F8-L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:10:50",
+    "device": "F8-L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779909050485-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:10:50",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779909050485-F10-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:10:50",
+    "device": "F10-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779909078244-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:11:18",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (18ms)"
+  },
+  {
+    "id": "ping-1779909078244-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:11:18",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779909078244-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:11:18",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779909078244-F10-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:11:18",
+    "device": "F10-R-1",
+    "message": "Normal - Device Responding to Poll (7ms)"
+  },
+  {
+    "id": "ping-1779909103985-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:11:43",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (9ms)"
+  },
+  {
+    "id": "ping-1779909376826-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:16:16",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779909406825-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:16:46",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779909554348-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:19:14",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (150ms)"
+  },
+  {
+    "id": "ping-1779909584053-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:19:44",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779910247716-F6-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:30:47",
+    "device": "F6-L-2",
+    "message": "Minor - High latency detected (>100ms) (1007ms)"
+  },
+  {
+    "id": "ping-1779910276826-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:31:16",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779910397395-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:33:17",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779910454243-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:34:14",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (15ms)"
+  },
+  {
+    "id": "ping-1779910575420-F4-Medicine-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:36:15",
+    "device": "F4-Medicine-1",
+    "message": "Minor - High latency detected (>100ms) (1004ms)"
+  },
+  {
+    "id": "ping-1779910604316-F4-Medicine-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:36:44",
+    "device": "F4-Medicine-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779910844651-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:40:44",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (155ms)"
+  },
+  {
+    "id": "ping-1779910874317-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:41:14",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779910995462-F7-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:43:15",
+    "device": "F7-L-2",
+    "message": "Minor - High latency detected (>100ms) (1064ms)"
+  },
+  {
+    "id": "ping-1779911024367-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:43:44",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779911268283-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:47:48",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779911294447-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:48:14",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779911870158-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "02:57:50",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779911897316-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:58:17",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779911957448-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:59:17",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (121ms)"
+  },
+  {
+    "id": "ping-1779911985625-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "02:59:45",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779911985625-F7-R-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "02:59:45",
+    "device": "F7-R-1",
+    "message": "Minor - High latency detected (>100ms) (1009ms)"
+  },
+  {
+    "id": "ping-1779912014834-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:00:14",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779912227727-F7-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:03:47",
+    "device": "F7-L-2",
+    "message": "Minor - High latency detected (>100ms) (551ms)"
+  },
+  {
+    "id": "ping-1779912254681-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:04:14",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779912797868-F7-L-4",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "03:13:17",
+    "device": "F7-L-4",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779912824875-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:13:44",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (10ms)"
+  },
+  {
+    "id": "ping-1779912915437-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:15:15",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (103ms)"
+  },
+  {
+    "id": "ping-1779912947423-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:15:47",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779913156011-F9-L-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:19:16",
+    "device": "F9-L-1",
+    "message": "Minor - High latency detected (>100ms) (1015ms)"
+  },
+  {
+    "id": "ping-1779913184956-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:19:44",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779913607839-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:26:47",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (128ms)"
+  },
+  {
+    "id": "ping-1779913638455-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:27:18",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (145ms)"
+  },
+  {
+    "id": "ping-1779913638455-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:27:18",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779913665389-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:27:45",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (10ms)"
+  },
+  {
+    "id": "ping-1779914239417-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "03:37:19",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779914265227-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:37:45",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779914295531-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:38:15",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (141ms)"
+  },
+  {
+    "id": "ping-1779914325206-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:38:45",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779915256504-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "03:54:16",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (1011ms)"
+  },
+  {
+    "id": "ping-1779915293775-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "03:54:53",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779915622275-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:00:22",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779915645533-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:00:45",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779915858679-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:04:18",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779915885594-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:04:45",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779916189332-F8-L-3",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:09:49",
+    "device": "F8-L-3",
+    "message": "Minor - High latency detected (>100ms) (1018ms)"
+  },
+  {
+    "id": "ping-1779916215683-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:10:15",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779916338741-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:12:18",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779916365745-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:12:45",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (7ms)"
+  },
+  {
+    "id": "ping-1779916549769-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:15:49",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779916575722-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:16:15",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (20ms)"
+  },
+  {
+    "id": "ping-1779916791319-F6-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:19:51",
+    "device": "F6-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779916791319-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:19:51",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779916820270-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:20:20",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779916820270-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:20:20",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (14ms)"
+  },
+  {
+    "id": "ping-1779917236087-F4-HR-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:27:16",
+    "device": "F4-HR-2",
+    "message": "Minor - High latency detected (>100ms) (116ms)"
+  },
+  {
+    "id": "ping-1779917265896-F4-HR-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:27:45",
+    "device": "F4-HR-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779918526284-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:48:46",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (102ms)"
+  },
+  {
+    "id": "ping-1779918559196-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:49:19",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779918676471-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:51:16",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (174ms)"
+  },
+  {
+    "id": "ping-1779918706196-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:51:46",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779918799283-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:53:19",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (319ms)"
+  },
+  {
+    "id": "ping-1779918826241-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:53:46",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779918858704-F9-L-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:54:18",
+    "device": "F9-L-1",
+    "message": "Minor - High latency detected (>100ms) (1012ms)"
+  },
+  {
+    "id": "ping-1779918889309-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:54:49",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779918976463-F8-L-DIM",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:56:16",
+    "device": "F8-L-DIM",
+    "message": "Minor - High latency detected (>100ms) (115ms)"
+  },
+  {
+    "id": "ping-1779919006279-F8-L-DIM",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "04:56:46",
+    "device": "F8-L-DIM",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779919190718-F8-L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "04:59:50",
+    "device": "F8-L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779919190718-F10-R-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "04:59:50",
+    "device": "F10-R-1",
+    "message": "Minor - High latency detected (>100ms) (1306ms)"
+  },
+  {
+    "id": "ping-1779919253255-F10-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:00:53",
+    "device": "F10-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779919276419-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:01:16",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (11ms)"
+  },
+  {
+    "id": "ping-1779919276419-F10-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:01:16",
+    "device": "F10-R-1",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779919637469-F2-Parcel6",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "05:07:17",
+    "device": "F2-Parcel6",
+    "message": "Minor - High latency detected (>100ms) (1009ms)"
+  },
+  {
+    "id": "ping-1779919671295-F2-Parcel6",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:07:51",
+    "device": "F2-Parcel6",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779919786743-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "05:09:46",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (101ms)"
+  },
+  {
+    "id": "ping-1779919816502-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:10:16",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779920094301-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:14:54",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779920123802-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:15:23",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779920158134-F7-L-4",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:15:58",
+    "device": "F7-L-4",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779920158134-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:15:58",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779920180118-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:16:20",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779920180118-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:16:20",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779920180118-F9-L-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "05:16:20",
+    "device": "F9-L-1",
+    "message": "Minor - High latency detected (>100ms) (1017ms)"
+  },
+  {
+    "id": "ping-1779920206580-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:16:46",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779920420066-F7-L-4",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:20:20",
+    "device": "F7-L-4",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779920446677-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:20:46",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779921531357-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:38:51",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779921559352-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:39:19",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779921799767-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "05:43:19",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779921827042-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:43:47",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779922697407-F7-L-4",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "05:58:17",
+    "device": "F7-L-4",
+    "message": "Minor - High latency detected (>100ms) (122ms)"
+  },
+  {
+    "id": "ping-1779922727223-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "05:58:47",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779923000349-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:03:20",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779923027340-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:03:47",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779923270353-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:07:50",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779923298026-F8-R-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "06:08:18",
+    "device": "F8-R-2",
+    "message": "Minor - High latency detected (>100ms) (619ms)"
+  },
+  {
+    "id": "ping-1779923330410-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:08:50",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779923359795-F8-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:09:19",
+    "device": "F8-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779923387464-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:09:47",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779923507831-F8-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "06:11:47",
+    "device": "F8-L-2",
+    "message": "Minor - High latency detected (>100ms) (427ms)"
+  },
+  {
+    "id": "ping-1779923537431-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:12:17",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779923660683-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "06:14:20",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (182ms)"
+  },
+  {
+    "id": "ping-1779923693103-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:14:53",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779923930540-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:18:50",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779923957519-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:19:17",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779924080619-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:21:20",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779924107609-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:21:47",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (16ms)"
+  },
+  {
+    "id": "ping-1779924290670-F9-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:24:50",
+    "device": "F9-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779924320694-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:25:20",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779924351406-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:25:51",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779924377621-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:26:17",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779924562268-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:29:22",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779924587669-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:29:47",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779924890766-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:34:50",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779924917768-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:35:17",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779925372344-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "06:42:52",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779925398163-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "06:43:18",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (111ms)"
+  },
+  {
+    "id": "ping-1779925398163-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:43:18",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779925428006-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:43:48",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779925578949-F10-rack1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "06:46:18",
+    "device": "F10-rack1",
+    "message": "Minor - High latency detected (>100ms) (1020ms)"
+  },
+  {
+    "id": "ping-1779925607977-F10-rack1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:46:47",
+    "device": "F10-rack1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779925758158-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "06:49:18",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (108ms)"
+  },
+  {
+    "id": "ping-1779925790978-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "06:49:50",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779926541978-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:02:21",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779926568186-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:02:48",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779926662262-F7-R-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "07:04:22",
+    "device": "F7-R-1",
+    "message": "Minor - High latency detected (>100ms) (1018ms)"
+  },
+  {
+    "id": "ping-1779926691358-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:04:51",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779926691358-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:04:51",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (60ms)"
+  },
+  {
+    "id": "ping-1779926721291-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:05:21",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (7ms)"
+  },
+  {
+    "id": "ping-1779926751287-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:05:51",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779926778272-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:06:18",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779927021930-F7-R-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "07:10:21",
+    "device": "F7-R-2",
+    "message": "Minor - High latency detected (>100ms) (745ms)"
+  },
+  {
+    "id": "ping-1779927048334-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:10:48",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779927146298-F4-HR-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:12:26",
+    "device": "F4-HR-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779927170957-F4-HR-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:12:50",
+    "device": "F4-HR-2",
+    "message": "Normal - Device Responding to Poll (35ms)"
+  },
+  {
+    "id": "ping-1779927382279-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "07:16:22",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (128ms)"
+  },
+  {
+    "id": "ping-1779927411270-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:16:51",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779927411270-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:16:51",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779927438387-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:17:18",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779927498570-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "07:18:18",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (104ms)"
+  },
+  {
+    "id": "ping-1779927531271-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:18:51",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (12ms)"
+  },
+  {
+    "id": "ping-1779927652094-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:20:52",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779927678601-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:21:18",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779927741476-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:22:21",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779927768725-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:22:48",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (8ms)"
+  },
+  {
+    "id": "ping-1779927864603-F7-L-4",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:24:24",
+    "device": "F7-L-4",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779927892293-F7-L-4",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:24:52",
+    "device": "F7-L-4",
+    "message": "Normal - Device Responding to Poll (30ms)"
+  },
+  {
+    "id": "ping-1779927892293-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:24:52",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779927921555-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:25:21",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779928042251-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:27:22",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779928068578-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:27:48",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779928973346-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:42:53",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779929000333-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:43:20",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779929330550-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "07:48:50",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (112ms)"
+  },
+  {
+    "id": "ping-1779929363458-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:49:23",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779929423570-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:50:23",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779929450355-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "07:50:50",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779929830339-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "07:57:10",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779930037755-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:00:37",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779930063914-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:01:03",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779930159438-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "08:02:39",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (117ms)"
+  },
+  {
+    "id": "ping-1779930186267-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:03:06",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779930400433-F8-L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:06:40",
+    "device": "F8-L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779930400433-F10-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:06:40",
+    "device": "F10-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779930428387-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:07:08",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (13ms)"
+  },
+  {
+    "id": "ping-1779930428772-F10-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:07:08",
+    "device": "F10-R-1",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779930641301-F8-R-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "08:10:41",
+    "device": "F8-R-2",
+    "message": "Minor - High latency detected (>100ms) (121ms)"
+  },
+  {
+    "id": "ping-1779930669016-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:11:09",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (10ms)"
+  },
+  {
+    "id": "ping-1779931212899-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:20:12",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779931238892-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:20:38",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779931513358-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:25:13",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779931538941-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:25:38",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (5ms)"
+  },
+  {
+    "id": "ping-1779931811978-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:30:11",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779931839039-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:30:39",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779932082124-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:34:42",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779932111987-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:35:11",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779932142893-F7-R-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "08:35:42",
+    "device": "F7-R-1",
+    "message": "Minor - High latency detected (>100ms) (1067ms)"
+  },
+  {
+    "id": "ping-1779932169008-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:36:09",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779932564887-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "08:42:44",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (117ms)"
+  },
+  {
+    "id": "ping-1779932589151-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:43:09",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779933253452-F8-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:54:13",
+    "device": "F8-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779933281701-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:54:41",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779933552041-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "08:59:12",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779933583189-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "08:59:43",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (10ms)"
+  },
+  {
+    "id": "ping-1779933612620-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:00:12",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779933642895-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:00:42",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779933673388-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:01:13",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779933699371-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:01:39",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779933729559-F8-L-DIM",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "09:02:09",
+    "device": "F8-L-DIM",
+    "message": "Minor - High latency detected (>100ms) (143ms)"
+  },
+  {
+    "id": "ping-1779933759374-F8-L-DIM",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:02:39",
+    "device": "F8-L-DIM",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779933879766-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "09:04:39",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (188ms)"
+  },
+  {
+    "id": "ping-1779933909423-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:05:09",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779934002824-F8-L-DIM",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "09:06:42",
+    "device": "F8-L-DIM",
+    "message": "Minor - High latency detected (>100ms) (148ms)"
+  },
+  {
+    "id": "ping-1779934029393-F8-L-DIM",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:07:09",
+    "device": "F8-L-DIM",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779934122005-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "09:08:42",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (102ms)"
+  },
+  {
+    "id": "ping-1779934155424-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:09:15",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779934182556-F9-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:09:42",
+    "device": "F9-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779934209481-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:10:09",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779934362490-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:12:42",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779934394002-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:13:14",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779934452659-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:14:12",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779934479633-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:14:39",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779934782522-F7-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:19:42",
+    "device": "F7-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779934809532-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:20:09",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779934933565-F9-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:22:13",
+    "device": "F9-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779934959882-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:22:39",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (46ms)"
+  },
+  {
+    "id": "ping-1779935169760-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "09:26:09",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (110ms)"
+  },
+  {
+    "id": "ping-1779935199693-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:26:39",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779935615323-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:33:35",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779935640787-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:34:00",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (5ms)"
+  },
+  {
+    "id": "ping-1779935884049-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:38:04",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779935917319-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:38:37",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779936006418-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:40:06",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779936030922-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:40:30",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779936394089-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:46:34",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779936421061-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:47:01",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779936634146-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:50:34",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779936661300-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:51:01",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779936789336-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "09:53:09",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (135ms)"
+  },
+  {
+    "id": "ping-1779936789336-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:53:09",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779936811163-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:53:31",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779936811163-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:53:31",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779937058807-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:57:38",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779937081188-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:58:01",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (9ms)"
+  },
+  {
+    "id": "ping-1779937145508-F7-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "09:59:05",
+    "device": "F7-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779937171185-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "09:59:31",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779937504504-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:05:04",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779937531508-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:05:31",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779937561502-F8-L-DIM",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "10:06:01",
+    "device": "F8-L-DIM",
+    "message": "Minor - High latency detected (>100ms) (104ms)"
+  },
+  {
+    "id": "ping-1779937591424-F8-L-DIM",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:06:31",
+    "device": "F8-L-DIM",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779937958875-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:12:38",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779937981642-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:13:01",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (46ms)"
+  },
+  {
+    "id": "ping-1779938075945-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:14:35",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779938108725-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:15:08",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779938134717-F8-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:15:34",
+    "device": "F8-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779938169336-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:16:09",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779938344602-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:19:04",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779938371632-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:19:31",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779938465894-F8-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:21:05",
+    "device": "F8-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779938551819-F8-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:22:31",
+    "device": "F8-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779938795914-F8-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:26:35",
+    "device": "F8-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779938821726-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:27:01",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779939275016-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "10:34:35",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (138ms)"
+  },
+  {
+    "id": "ping-1779939302912-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:35:02",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779939302912-F8-L-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "10:35:02",
+    "device": "F8-L-1",
+    "message": "Minor - High latency detected (>100ms) (1026ms)"
+  },
+  {
+    "id": "ping-1779939331967-F8-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:35:31",
+    "device": "F8-L-1",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779939398838-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:36:38",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779939422030-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:37:02",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779939516366-F9-L-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:38:36",
+    "device": "F9-L-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779939541921-F9-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:39:01",
+    "device": "F9-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779939783685-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "10:43:03",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (1622ms)"
+  },
+  {
+    "id": "ping-1779939811985-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:43:31",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779940055892-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:47:35",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779940082077-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:48:02",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779940445469-F6-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:54:05",
+    "device": "F6-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779940472091-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:54:32",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779940716326-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "10:58:36",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779940742239-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "10:59:02",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779941168117-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "11:06:08",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779941192357-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:06:32",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779941282709-F9-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:08:02",
+    "device": "F9-L-2",
+    "message": "Minor - High latency detected (>100ms) (258ms)"
+  },
+  {
+    "id": "ping-1779941312363-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:08:32",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779941342527-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:09:02",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (124ms)"
+  },
+  {
+    "id": "ping-1779941372546-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:09:32",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779941435345-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:10:35",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (116ms)"
+  },
+  {
+    "id": "ping-1779941435345-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:10:35",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (107ms)"
+  },
+  {
+    "id": "ping-1779941462479-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:11:02",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (13ms)"
+  },
+  {
+    "id": "ping-1779941462479-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:11:02",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779941492747-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:11:32",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (151ms)"
+  },
+  {
+    "id": "ping-1779941525158-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:12:05",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779941732683-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:15:32",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (117ms)"
+  },
+  {
+    "id": "ping-1779941762524-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:16:02",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779941822595-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:17:02",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (126ms)"
+  },
+  {
+    "id": "ping-1779941855200-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:17:35",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779942035452-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "11:20:35",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779942062549-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:21:02",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (12ms)"
+  },
+  {
+    "id": "ping-1779942248788-F8-L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "11:24:08",
+    "device": "F8-L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779942248788-F10-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "11:24:08",
+    "device": "F10-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779942272741-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:24:32",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779942272741-F10-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:24:32",
+    "device": "F10-R-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779943566864-F9-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "11:46:06",
+    "device": "F9-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779943592951-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:46:32",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779943713276-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:48:33",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (112ms)"
+  },
+  {
+    "id": "ping-1779943743070-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:49:03",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779943773057-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:49:33",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (104ms)"
+  },
+  {
+    "id": "ping-1779943802969-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:50:02",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779944013166-F7-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:53:33",
+    "device": "F7-L-2",
+    "message": "Minor - High latency detected (>100ms) (104ms)"
+  },
+  {
+    "id": "ping-1779944043133-F7-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:54:03",
+    "device": "F7-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779944290581-F6-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "11:58:10",
+    "device": "F6-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779944290581-F9-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:58:10",
+    "device": "F9-L-2",
+    "message": "Minor - High latency detected (>100ms) (1166ms)"
+  },
+  {
+    "id": "ping-1779944317140-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:58:37",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (4ms)"
+  },
+  {
+    "id": "ping-1779944317140-F9-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:58:37",
+    "device": "F9-L-2",
+    "message": "Normal - Device Responding to Poll (7ms)"
+  },
+  {
+    "id": "ping-1779944317140-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "11:58:37",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (1084ms)"
+  },
+  {
+    "id": "ping-1779944343197-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "11:59:03",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779944617315-F10-ip-phone",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "12:03:37",
+    "device": "F10-ip-phone",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779944643283-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:04:03",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (3ms)"
+  },
+  {
+    "id": "ping-1779944913392-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:08:33",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (124ms)"
+  },
+  {
+    "id": "ping-1779944945971-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:09:05",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (28ms)"
+  },
+  {
+    "id": "ping-1779945004283-F8-L-3",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:10:04",
+    "device": "F8-L-3",
+    "message": "Minor - High latency detected (>100ms) (1020ms)"
+  },
+  {
+    "id": "ping-1779945033288-F8-L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:10:33",
+    "device": "F8-L-3",
+    "message": "Normal - Device Responding to Poll (27ms)"
+  },
+  {
+    "id": "ping-1779945276373-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "12:14:36",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779945303370-F8-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:15:03",
+    "device": "F8-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779945933767-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:25:33",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (135ms)"
+  },
+  {
+    "id": "ping-1779945963545-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:26:03",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779946023537-F1-Library-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:27:03",
+    "device": "F1-Library-1",
+    "message": "Minor - High latency detected (>100ms) (104ms)"
+  },
+  {
+    "id": "ping-1779946056032-F1-Library-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:27:36",
+    "device": "F1-Library-1",
+    "message": "Normal - Device Responding to Poll (2ms)"
+  },
+  {
+    "id": "ping-1779946414900-F6-L-2",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:33:34",
+    "device": "F6-L-2",
+    "message": "Minor - High latency detected (>100ms) (1141ms)"
+  },
+  {
+    "id": "ping-1779946443658-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:34:03",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779946752173-F7-R-1",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "12:39:12",
+    "device": "F7-R-1",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779946752173-F10-ip-phone",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:39:12",
+    "device": "F10-ip-phone",
+    "message": "Minor - High latency detected (>100ms) (224ms)"
+  },
+  {
+    "id": "ping-1779946773632-F7-R-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:39:33",
+    "device": "F7-R-1",
+    "message": "Normal - Device Responding to Poll (6ms)"
+  },
+  {
+    "id": "ping-1779946773632-F10-ip-phone",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:39:33",
+    "device": "F10-ip-phone",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  }
+]
