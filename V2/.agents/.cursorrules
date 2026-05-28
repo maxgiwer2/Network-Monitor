@@ -1,0 +1,6 @@
+Tech Stack: PHP 8.x, MySQL/MariaDB (XAMPP), HTML/CSS/JS.
+
+Local URL: http://localhost/donation-from
+
+Database:msmfdona_donation
+ทุกครั้งที่เขียน SQL ให้ใช้ Prepared Statements เสมอ" เพื่อป้องกันความปลอดภัยของข้อมูลผู้บริจาคครับ

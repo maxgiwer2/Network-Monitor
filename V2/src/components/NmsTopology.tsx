@@ -593,11 +593,11 @@ export const NmsTopology: React.FC<NmsTopologyProps> = ({
   };
 
   return (
-    <div className="nms-crt-screen">
-      {/* 1. NMS TOPBAR TOOLBAR */}
+    <div className="nms-dashboard">
+      {/* 1. TOP BAR */}
       <header className="nms-topbar">
         <div className="nms-topbar-left">
-          <span className="nms-sys-title">GLOWNET // NMS TOPOLOGY CONSOLE</span>
+          <div className="nms-sys-title">MEDSWU || TOPOLOGY</div>
           <div style={{ display: 'flex', gap: '0.4rem' }}>
             <button className="nms-btn" onClick={handleZoomIn} title="Zoom In">+</button>
             <button className="nms-btn" onClick={handleZoomOut} title="Zoom Out">-</button>
@@ -821,14 +821,15 @@ export const NmsTopology: React.FC<NmsTopologyProps> = ({
               if (!srcNode || !tgtNode) return null;
 
               const isAlert = srcNode.status === 'red' || tgtNode.status === 'red';
+              
+              // Smooth bezier curve logic
+              const midX = (srcNode.x + tgtNode.x) / 2;
+              const d = `M ${srcNode.x} ${srcNode.y} C ${midX} ${srcNode.y}, ${midX} ${tgtNode.y}, ${tgtNode.x} ${tgtNode.y}`;
 
               return (
-                <line
+                <path
                   key={`link-${idx}`}
-                  x1={srcNode.x}
-                  y1={srcNode.y}
-                  x2={tgtNode.x}
-                  y2={tgtNode.y}
+                  d={d}
                   className={`nms-link-line ${isAlert ? 'alert' : 'active'}`}
                 />
               );
@@ -836,9 +837,9 @@ export const NmsTopology: React.FC<NmsTopologyProps> = ({
 
             {/* Draw Nodes */}
             {filteredNodes.map(node => {
-              // Rect dimensions
-              const width = 80;
-              const height = 24;
+              // Modern Node dimensions
+              const width = 100;
+              const height = 32;
               const rx = node.x - width / 2;
               const ry = node.y - height / 2;
 
@@ -852,15 +853,25 @@ export const NmsTopology: React.FC<NmsTopologyProps> = ({
                   }}
                   onMouseDown={(e) => handleNodeMouseDown(e, node.id)}
                 >
+                  {/* Outer Status Glow */}
+                  <rect
+                    x={rx - 2}
+                    y={ry - 2}
+                    width={width + 4}
+                    height={height + 4}
+                    rx={10}
+                    ry={10}
+                    className={`nms-node-status-glow ${node.status}`}
+                  />
                   {/* Rectangle base */}
                   <rect
                     x={rx}
                     y={ry}
                     width={width}
                     height={height}
-                    rx={4}
-                    ry={4}
-                    className={`nms-node-rect ${node.status}`}
+                    rx={8}
+                    ry={8}
+                    className="nms-node-rect"
                   />
                   {/* Text Label */}
                   <text
@@ -868,7 +879,7 @@ export const NmsTopology: React.FC<NmsTopologyProps> = ({
                     y={node.y + 4}
                     className="nms-node-label"
                   >
-                    {node.name.length > 13 ? node.name.substring(0, 11) + '..' : node.name}
+                    {node.name.length > 14 ? node.name.substring(0, 12) + '..' : node.name}
                   </text>
                 </g>
               );

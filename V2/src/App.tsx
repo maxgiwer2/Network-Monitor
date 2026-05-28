@@ -54,7 +54,7 @@ function App() {
   const [pollingActive, setPollingActive] = useState(true);
   const [viewMode, setViewMode] = useState<'dashboard' | 'nms'>('dashboard');
 
-  
+
   // Real-time Metrics State
   const [ping, setPing] = useState<PingData>({ google: 0, cloudflare: 0, quad9: 0 });
   const [bandwidth, setBandwidth] = useState<BandwidthData>({ download: 0, upload: 0 });
@@ -63,7 +63,7 @@ function App() {
   const [customDevices, setCustomDevices] = useState<MonitoredDevice[]>([]);
   const [topologyStatus, setTopologyStatus] = useState<TopologyNodeStatus[]>([]);
   const [topologyNodes, setTopologyNodes] = useState<NmsNode[]>(INITIAL_NODES);
-  
+
   // Historical & Calculated States
   const [pingHistory, setPingHistory] = useState<PingHistoryItem[]>([]);
   const [totalDataUsed, setTotalDataUsed] = useState(0); // in bytes
@@ -80,7 +80,7 @@ function App() {
 
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     const wsUrl = `${protocol}//${window.location.host}/ws`;
-    
+
     console.log(`[WS] Connecting to: ${wsUrl}`);
     const socket = new WebSocket(wsUrl);
     wsRef.current = socket;
@@ -94,18 +94,18 @@ function App() {
     socket.onmessage = (event) => {
       try {
         const message = JSON.parse(event.data);
-        
+
         if (message.type === 'SERVER_STATUS') {
           setPollingActive(message.data.pollingActive);
         }
-        
+
         if (message.type === 'TOPOLOGY_UPDATE') {
           setTopologyStatus(message.data.topologyStatus);
         }
-        
+
         if (message.type === 'METRICS_UPDATE') {
           const { data } = message;
-          
+
           setPing(data.ping);
           setBandwidth(data.bandwidth);
           setInterfaces(data.interfaces);
@@ -166,7 +166,7 @@ function App() {
       console.log('[WS] Connection closed');
       setIsConnected(false);
       wsRef.current = null;
-      
+
       // Attempt reconnect after 3 seconds
       setIsReconnecting(true);
       reconnectTimeoutRef.current = window.setTimeout(() => {
@@ -182,7 +182,7 @@ function App() {
 
   useEffect(() => {
     connectWS();
-    
+
     // Fetch initial devices list
     fetch('/api/devices')
       .then(r => r.json())
@@ -246,16 +246,16 @@ function App() {
         const errData = await response.json();
         return errData.error || 'Failed to update node.';
       }
-      
+
       const resData = await response.json();
-      
+
       // Update locally
       if (resData.type === 'topology') {
         setTopologyNodes(prev => prev.map(node => node.id === id ? { ...node, name, ip } : node));
       } else if (resData.type === 'custom') {
         setCustomDevices(prev => prev.map(dev => dev.id === id ? { ...dev, name, ip } : dev));
       }
-      
+
       return null;
     } catch (err) {
       return 'Failed to reach API server.';
@@ -269,7 +269,7 @@ function App() {
     } else {
       setTopologyNodes(prev => prev.map(node => node.id === id ? { ...node, x, y } : node));
     }
-    
+
     try {
       await fetch('/api/node/position', {
         method: 'POST',
@@ -343,8 +343,8 @@ function App() {
 
   if (viewMode === 'nms') {
     return (
-      <NmsTopology 
-        onClose={() => setViewMode('dashboard')} 
+      <NmsTopology
+        onClose={() => setViewMode('dashboard')}
         customDevices={customDevices}
         onAddDevice={handleAddDevice}
         onDeleteDevice={handleDeleteDevice}
@@ -365,23 +365,23 @@ function App() {
         <div className="logo-section">
           <div className="logo-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
           </div>
           <div className="logo-text">
-            <h1>GLOWNET</h1>
+            <h1>MEDSWU</h1>
             <span>System Network Monitor</span>
           </div>
         </div>
 
         <div className="control-section">
-          <button 
+          <button
             className="diag-btn"
-            style={{ 
-              background: 'linear-gradient(135deg, #059669, #047857)', 
-              border: 'none', 
-              color: 'white', 
-              padding: '0.4rem 0.85rem', 
+            style={{
+              background: 'linear-gradient(135deg, #059669, #047857)',
+              border: 'none',
+              color: 'white',
+              padding: '0.4rem 0.85rem',
               marginRight: '0.5rem',
               display: 'flex',
               alignItems: 'center',
@@ -403,8 +403,8 @@ function App() {
           <div className="switch-container">
             <span className="switch-label">Server Monitor</span>
             <label className="switch-toggle">
-              <input 
-                type="checkbox" 
+              <input
+                type="checkbox"
                 checked={pollingActive}
                 disabled={!isConnected}
                 onChange={(e) => handleTogglePolling(e.target.checked)}
@@ -433,47 +433,47 @@ function App() {
 
       {/* Upper Metric Row */}
       <section className="metrics-row">
-        <MetricCard 
-          label="Google Ping" 
+        <MetricCard
+          label="Google Ping"
           value={pollingActive ? `${ping.google} ms` : 'PAUSED'}
           subtext="Latency to 8.8.8.8"
           theme={ping.google > 100 ? 'warning' : ping.google > 200 ? 'danger' : 'primary'}
           icon={
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/>
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z" />
             </svg>
           }
         />
-        <MetricCard 
-          label="Jitter" 
+        <MetricCard
+          label="Jitter"
           value={pollingActive ? `${jitter} ms` : 'PAUSED'}
           subtext="Latency variance"
           theme={jitter > 15 ? 'warning' : 'secondary'}
           icon={
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <path d="M12 20c4.41 0 8-3.59 8-8s-3.59-8-8-8-8 3.59-8 8 3.59 8 8 8zm0-18c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm-1 5h2v6h-2V7zm0 8h2v2h-2v-2z"/>
+              <path d="M12 20c4.41 0 8-3.59 8-8s-3.59-8-8-8-8 3.59-8 8 3.59 8 8 8zm0-18c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm-1 5h2v6h-2V7zm0 8h2v2h-2v-2z" />
             </svg>
           }
         />
-        <MetricCard 
-          label="Packet Loss" 
+        <MetricCard
+          label="Packet Loss"
           value={pollingActive ? `${lossRate}%` : 'PAUSED'}
           subtext="Ping packet drop"
           theme={lossRate > 0 ? 'danger' : 'success'}
           icon={
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
             </svg>
           }
         />
-        <MetricCard 
-          label="Session Data" 
+        <MetricCard
+          label="Session Data"
           value={formatBytes(totalDataUsed)}
           subtext="Total sent/received"
           theme="success"
           icon={
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/>
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z" />
             </svg>
           }
         />
@@ -485,14 +485,14 @@ function App() {
         <div className="panel-card grid-col-4">
           <div className="panel-title">
             <div className="panel-title-left">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" /></svg>
               Bandwidth Speed
             </div>
             <span className="panel-badge">REAL-TIME</span>
           </div>
-          <Speedometer 
-            downloadSpeed={pollingActive ? bandwidth.download : 0} 
-            uploadSpeed={pollingActive ? bandwidth.upload : 0} 
+          <Speedometer
+            downloadSpeed={pollingActive ? bandwidth.download : 0}
+            uploadSpeed={pollingActive ? bandwidth.upload : 0}
           />
           <div style={{ display: 'flex', justifyContent: 'space-around', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
             <span>DN: {formatBytes(pollingActive ? bandwidth.download : 0, true)}</span>
@@ -504,7 +504,7 @@ function App() {
         <div className="panel-card grid-col-8">
           <div className="panel-title">
             <div className="panel-title-left">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" /></svg>
               Latency Timeline (ms)
             </div>
             <span className="panel-badge">ROLLING 50s</span>
@@ -516,7 +516,7 @@ function App() {
         <div className="panel-card grid-col-4">
           <div className="panel-title">
             <div className="panel-title-left">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.11-.9-2-2-2H4c-1.11 0-2 .89-2 2v10c0 1.1.89 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.11-.9-2-2-2H4c-1.11 0-2 .89-2 2v10c0 1.1.89 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" /></svg>
               Network Adapters
             </div>
             <span className="panel-badge">{interfaces.length} FOUND</span>
@@ -528,12 +528,12 @@ function App() {
         <div className="panel-card grid-col-8">
           <div className="panel-title">
             <div className="panel-title-left">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z" /></svg>
               Monitored Devices
             </div>
             <span className="panel-badge">{customDevices.length} MONITORED</span>
           </div>
-          <DeviceManager 
+          <DeviceManager
             devices={customDevices}
             availableUplinks={[...topologyNodes, ...customDevices]}
             onAddDevice={handleAddDevice}
@@ -547,7 +547,7 @@ function App() {
         <div className="panel-card grid-col-6">
           <div className="panel-title">
             <div className="panel-title-left">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" /></svg>
               Active Socket Connections
             </div>
             <span className="panel-badge">{sockets.length} ACTIVE</span>
@@ -559,7 +559,7 @@ function App() {
         <div className="panel-card grid-col-6">
           <div className="panel-title">
             <div className="panel-title-left">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 12H4v-2h8v2zm8-4H4V8h16v4z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 12H4v-2h8v2zm8-4H4V8h16v4z" /></svg>
               Network Diagnostics Console
             </div>
             <span className="panel-badge">DIAGNOSTICS</span>
@@ -567,7 +567,7 @@ function App() {
           <Diagnostics />
         </div>
       </section>
-      
+
       <footer style={{ textAlign: 'center', fontSize: '0.75rem', color: 'var(--text-muted)', padding: '2rem 0 1rem' }}>
         GlowNet Network Monitor &bull; Running on local Node.js engine
       </footer>

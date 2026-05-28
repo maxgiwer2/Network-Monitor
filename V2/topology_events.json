@@ -3430,5 +3430,93 @@
     "time": "12:39:33",
     "device": "F10-ip-phone",
     "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779947377001-F6-L-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "12:49:37",
+    "device": "F6-L-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779947404089-F4-core_med",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "12:50:04",
+    "device": "F4-core_med",
+    "message": "Minor - High latency detected (>100ms) (121ms)"
+  },
+  {
+    "id": "ping-1779947404089-F6-L-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:50:04",
+    "device": "F6-L-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779947433813-F4-core_med",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "12:50:33",
+    "device": "F4-core_med",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779948556387-F7-L-1",
+    "severity": "Minor",
+    "date": "2026-05-28",
+    "time": "13:09:16",
+    "device": "F7-L-1",
+    "message": "Minor - High latency detected (>100ms) (1007ms)"
+  },
+  {
+    "id": "ping-1779948556387-F7L-3",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "13:09:16",
+    "device": "F7L-3",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779948580013-F7-L-1",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "13:09:40",
+    "device": "F7-L-1",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779948580013-F7L-3",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "13:09:40",
+    "device": "F7L-3",
+    "message": "Normal - Device Responding to Poll (1ms)"
+  },
+  {
+    "id": "ping-1779948738833-F8-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "13:12:18",
+    "device": "F8-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779950119007-F7-R-2",
+    "severity": "Major",
+    "date": "2026-05-28",
+    "time": "13:35:19",
+    "device": "F7-R-2",
+    "message": "Major - No Response to Device Poll"
+  },
+  {
+    "id": "ping-1779950146145-F7-R-2",
+    "severity": "Normal",
+    "date": "2026-05-28",
+    "time": "13:35:46",
+    "device": "F7-R-2",
+    "message": "Normal - Device Responding to Poll (1ms)"
   }
 ]
